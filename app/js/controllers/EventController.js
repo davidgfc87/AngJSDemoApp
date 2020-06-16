@@ -6,6 +6,8 @@ eventsApp.controller('EventController',
         $scope.myStyle= {color: 'red'};
         $scope.snippet = '<span style="color: red;">Hi there!</span>';
         $scope.myClass = "blue";
+        $scope.buttonDisabled = true;
+        $scope.sortorder = 'name';
         $scope.event = {
             name: 'Angular Boot Camp',
             date: '1/1/2013',
